@@ -13,7 +13,6 @@ Workshop objectives:
 
 [News headlines dataset](https://www.kaggle.com/rmisra/news-category-dataset) from Kaggle used for workshop
 
-[What's next?](https://github.com/LisaHJung/Part-4-Running-Aggregations-with-Elasticsearch-and-Kibana) Eager to continue your learning after mastering the concept from this workshop? Move on to Part 4: Running Aggregations with Elasticsearch and Kibana [here](https://github.com/LisaHJung/Part-4-Running-Aggregations-with-Elasticsearch-and-Kibana)!
 
 ### Search queries
 #### Get information about documents in an index
