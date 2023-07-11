@@ -1,9 +1,4 @@
-# Beginner's Crash Course to Elastic Stack Series
-## Part 3: Running full text queries and combined queries with Elasticsearch and Kibana
-
-Welcome to the Beginner's Crash Course to Elastic Stack!
-
-This repo contains all resources shared during Part 3: Running full text queries and combined queries with Elasticsearch and Kibana.
+# Queries with Elasticsearch and Kibana
 
 Workshop objectives:
 - delve deeper into advanced queries designed to search text fields
@@ -12,30 +7,13 @@ Workshop objectives:
 
 ## Resources
 
-[Beginner's Crash Course to Elastic Stack Table of Contents](https://github.com/LisaHJung/Beginners-Crash-Course-to-the-Elastic-Stack-Series) This workshop is part 3 of the Beginner's Crash Course to Elastic Stack series. Check out this table contents to access all the workshops in the series thus far. This table will continue to get updated as more workshops in the series are released! 
-
 [Free Elastic Cloud Trial](https://www.elastic.co/cloud/cloud-trial-overview/30-days?ultron=community-beginners-crash-course-May2022+&hulk=30d)
 
 [Instructions](https://dev.to/lisahjung/beginner-s-guide-to-setting-up-elasticsearch-and-kibana-with-elastic-cloud-1joh) on how to access Elasticsearch and Kibana on Elastic Cloud
 
-[Instructions](https://dev.to/elastic/downloading-elasticsearch-and-kibana-macos-linux-and-windows-1mmo) for downloading Elasticsearch and Kibana
-
-[Video Recording](https://www.youtube.com/watch?v=2KgJ6TQPIIA&t=374s) of the workshop
-
-[Mini Beginner's Crash Course to Elasticsearch & Kibana playlist](https://ela.st/mini-beginners-crash-course)
-
-Do you prefer learning by watching shorter videos? Check out this playlist to watch short clips of beginner's crash course full length workshops. Part 3 workshop is broken down into episodes 11-14.  Season 2 clips will be uploaded here in the future! 
-
-[Presentation](https://github.com/LisaHJung/Part-3-Running-full-text-queries-and-combined-queries-with-Elasticsearch-and-Kibana/blob/main/Part%203_%20Running%20full%20text%20queries%20and%20combined%20queries%20with%20Elasticsearch%20and%20Kibana.pdf)
-
 [News headlines dataset](https://www.kaggle.com/rmisra/news-category-dataset) from Kaggle used for workshop
 
 [What's next?](https://github.com/LisaHJung/Part-4-Running-Aggregations-with-Elasticsearch-and-Kibana) Eager to continue your learning after mastering the concept from this workshop? Move on to Part 4: Running Aggregations with Elasticsearch and Kibana [here](https://github.com/LisaHJung/Part-4-Running-Aggregations-with-Elasticsearch-and-Kibana)!
-
-## Review from Workshop Part 2
-There are two main ways to search in Elasticsearch:
-1) `Queries` retrieve documents that match the specified criteria. 
-2) `Aggregations` present the summary of your data as metrics, statistics, and other analytics.  
 
 ### Search queries
 #### Get information about documents in an index
@@ -824,4 +802,8 @@ Expected response from Elasticsearch:
 Adding many `queries` under the `should clause` did not reduce the number of hits(207). However, it favored documents that match the `queries` in the `should clause` and improved the precision of top search results. 
 
 ![image](https://user-images.githubusercontent.com/60980933/108548611-51a8f980-72a9-11eb-8310-0fe14286e437.png)
+
+
+## Reference
+[Beginner's Crash Course to Elastic Stack Table of Contents](https://github.com/LisaHJung/Beginners-Crash-Course-to-the-Elastic-Stack-Series) This workshop is part 3 of the Beginner's Crash Course to Elastic Stack series. Check out this table contents to access all the workshops in the series thus far. This table will continue to get updated as more workshops in the series are released! 
 
